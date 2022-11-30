@@ -23,7 +23,7 @@ image1 = form.multiselect(
 generate = form.form_submit_button("Generate Image")
 
 right.write("Here's your generated image!:")
-right.image("pica2 logo.png", width=300) # image will be here with api call
+right.image("pica2 logo.PNG", width=300) # image will be here with api call
 
 
 def add_bg_from_url():
